@@ -5,7 +5,7 @@ int main()
 {
     char* str;
     int n = 1;
-    str = malloc(100);
+    str = char malloc(100);
     fgets(str, 100, stdin);
     for (int i = 0; i < 100; i++)
     {
